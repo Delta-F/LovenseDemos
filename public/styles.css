@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* White background */
+    color: black; /* Black text */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.526); /* Black background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.side-menu {
+    width: 250px; /* Width of the side menu */
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    padding: 15px;
+}
+
+.side-menu ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.side-menu li {
+    margin: 10px 0; /* Space between items */
+}
+
+.side-menu a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color to black */
+    font-weight: bold; /* Make text bold for header-style */
+    font-size: 18px; /* Increase font size */
+}
+
+.side-menu a:hover {
+    color: #007BFF; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
+main {
+    flex-grow: 1; /* Allow main content to take remaining space */
+    padding: 20px; /* Add padding for main content */
+}
+
+footer {
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add padding */
+    background-color: rgba(0, 0, 0, 0.564); /* Black background */
+    color: white; /* White text */
+    position: relative; /* Position relative for layout */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
